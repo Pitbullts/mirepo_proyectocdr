@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="preload" href="../css/normalize.css" as="style">
+    <link rel="preload" href="..css/styles.css" as="style">
+    <link href="../css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header class="center">
+        <div class="nav-bg"">
+            <nav class="navprincipal contenedor">
+                <a href="../index.html"><img src="../img/logosup.png" alt="logosup"></a>
+            <h1 class="center txtmain">¡Contactanos!</h1>
+                <ul class="txtmain">
+                    <a class="hover" href="../index.html">Home</a>
+                    <a class="hover" href="somos.html">¿Quienes somos?</a>
+                    <div class="iconssup ">
+                            <a class="redes" href="https://twitter.com">  <img class="hover redeshover" src="../img/twtlogobg.png" alt="twtlogo"></a>
+                            <a class="redes" href="https://facebook.com"> <img class="hover redeshover" src="../img/fblogobg.png" alt="fblogo"></a>
+                            <a class="redes" href="https://instagram.com"><img class="hover redeshover" src="../img/iglogobg.png" alt="iglogo"></a>
+                    </div> 
+                </ul>     
+            </nav>
+        </div>
+    </header>
+    <section class="gridcontact formtext center">
+        <form action="" method="POST" enctype="text/plain">
+            <fieldset class="border gridfielset">
+                <h1 class="formnewsl">Datos personales</h1>
+            <div class="contenidocontacto">
+                    <label for="nombre">Nombre y Apellido</label>
+                    <input type="text" name="nombre" placeholder="Su Nombre + Apellido" required>
+                    <br>
+                <label for="email">Correo Electronico</label>
+                    <input for="email" type="mail" placeholder="nombre@ejemplo.com" required>
+                    <br>
+                <label for="numb">Numero de contacto</label>
+                    <input for="numb" type="number" placeholder="Su numero de telefono">
+                <div>
+                    <fieldset>
+                        <legend class="formnewsl">Area de contacto</legend>
+                    <select name="areas">
+                            <option value="Comercial">Comercial</option>
+                            <option value="Marketing">Marketing</option>
+                            <option value="Colaboraciones">Colaboraciones</option>
+                            <option value="Reclamos">Reclamos</option>
+                    </select>
+                    </fieldset>
+                <div>
+                        <label for="acepta" class="formnewsl">Aceptar terminos y condiciones</label>
+                        <input type="checkbox" name="acepta" value="Aceptar" required>
+                </div>
+                    <div>
+                        <input type="reset" value="Limpiar formulario">
+                        <br>
+                        <input type="submit" value="Enviar formulario">
+                  </div>
+            </div>      
+            </fieldset>
+            <footer class="border">
+                <p class="formtext center">Lucas Sarlija - Curso Desarrollo Web Coderhouse - 2021</p>
+</body>
+</html>

@@ -23,7 +23,6 @@ a {
     color: var(--blanco);
     text-decoration: none;
 }
-
 .hover {
     color: white;
     transition: 0.5s;
@@ -33,7 +32,6 @@ a {
     color: var(--oscuro);
     border-radius: 1rem;
 }
-
 /* Formulario */
 
 input,label, select {

@@ -92,17 +92,19 @@ tr,th{
     color: var(--blanco);
 }
 .coffeimg {
-  width: 100%; 
-  height: 60rem;
+  width: 90%; 
+  height: 50rem;
+  margin: 1rem;
+  padding: 1rem;
 }
 .imgpersonas {
-    width: 50rem;
-    height: 50rem;
+    width: 60%;
+    height: 100%;
 }
 
 .apigoogle {
-    width: 100rem;
-    height: 40rem;
+    width: 90%;
+    height: 90%;
 }
 /*  --------------- Nav Bar  --------------- */
 .nav-bg {
@@ -216,8 +218,8 @@ tr,th{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80rem;
-    height: 40rem;
+    width: 70rem;
+    height: 30rem;
     padding: 1rem;
 }
 .derechasomos {

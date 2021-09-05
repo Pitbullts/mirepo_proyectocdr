@@ -7,6 +7,10 @@
     <title>Puestos de comida</title>
     <link rel="preload" href="../css/normalize.css" as="style">
     <link href="../css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="preload" href="../css/styles.css" as="style">
     <link href="../css/styles.css" rel="stylesheet">
 </head>
@@ -28,27 +32,52 @@
         </div>
     </header>
     <main>
-        <table class="DondeEstamosPuestosHTML" cellspacing="8" cellpadding="7" border="1">
-        <caption class="formnewsl">Horarios y Ubicacion</caption>
-            <tr>
-                <th>Lunes 9hs a 19hs</th>
-                <th>Martes 10hs a 16hs</th>
-                <th>Miercoles</th>
-                <th>Jueves 10hs a 17hs</th>
-                <th>Viernes 9hs a 20hs</th>
-                <th>Sabado  9hs a 20hs</th>
-                <th>Domingo 10hs a 17hs</th>
-            </tr>
-            <tr>
+        <table class="table table-bordered container-fluid">
+            <thead>
+              <tr>
+                <th>Dia</th>
+                <th>Hora</th>
+                <th>Ubicacion</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Lunes</td>
+                <td>9hs - 19hs</td>
                 <td>Plaza del Libertador General San Martín (MORON) - Ntra Sra del Buen Viaje 900</td>
-                <td>Plaza 20 De Febrero (Ituzaingo) - Cnel. Pablo Zufriategui 799</td>
+              </tr>
+              <tr>
+                <td>Martes</td>
+                <td>10hs - 19hs</td>
+                <td>mary@example.com</td>
+              </tr>
+              <tr>
+                <td>Miercoles</td>
                 <td>No disponible</td>
-                <td>Plaza Alfonsina Storni (Constitucion) -</td>
+                <td>Locales oficiales</td>
+              </tr>
+              <tr>
+                <td>10hs 19hs</td>
+                <td>10hs - 19hs</td>
+                <td>Plaza Alfonsina Storni (Constitucion)</td>
+              </tr>
+              <tr>
+                <td>Viernes</td>
+                <td>10hs - 19hs</td>
                 <td>Obelisco - CORRIENTES AV. y 9 DE JULIO AV.</td>
+              </tr>
+              <tr>
+                <td>Sabado</td>
+                <td>10hs - 19hs</td>
                 <td>Plaza Arenales (Devoto) - Mercedes 4058</td>
+              </tr>
+              <tr>
+                <td>Domingo</td>
+                <td>10hs - 19hs</td>
                 <td>Plaza Francia (Recoleta) - Av. del Libertador 1400</td>
-            </tr>
-        </table>    
+              </tr>
+            </tbody>
+          </table>
     </main>
 </body>
 </html>

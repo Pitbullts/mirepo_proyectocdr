@@ -23,6 +23,7 @@ a {
     color: var(--blanco);
     text-decoration: none;
 }
+
 .hover {
     color: white;
     transition: 0.5s;
@@ -32,6 +33,7 @@ a {
     color: var(--oscuro);
     border-radius: 1rem;
 }
+
 /* Formulario */
 
 input,label, select {
@@ -52,6 +54,12 @@ tr,th{
         border-spacing: 1rem;
 }
 
+@media (max-width: 768px) {
+    .gridmain {
+        display: flex;
+        flex-direction: column;
+    }
+}
 /*  ---------------Estilizadores de texto reutilizables  */
 .center {
     text-align: center;
@@ -68,7 +76,6 @@ tr,th{
     font-size: 2rem;
     color: var(--blanco);
 }
-
 .fontbnc {  /* Fuente negrita clase global */
     font-weight: bold;
 }
@@ -81,6 +88,15 @@ tr,th{
     border: solid #ffffff;
 }
 
+.margin {
+    margin: 1rem;
+}
+
+.centergrid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
 /* --------------- IMG   ---------------          */
 .bgcoffeimg {
     display: block;
@@ -92,23 +108,22 @@ tr,th{
     color: var(--blanco);
 }
 .coffeimg {
-  width: 90%; 
-  height: 50rem;
-  margin: 1rem;
-  padding: 1rem;
+  width: 100%; 
+  height: 60rem;
 }
 .imgpersonas {
-    width: 60%;
-    height: 100%;
+    width: 50rem;
+    height: 50rem;
 }
 
 .apigoogle {
-    width: 90%;
-    height: 90%;
+    width: auto;
+    height: auto;
 }
 /*  --------------- Nav Bar  --------------- */
 .nav-bg {
     background-color: var(--secundario);
+    width: 100%;
 }
 .navprincipal {        
         display: flex;
@@ -126,27 +141,47 @@ tr,th{
 
 }
 
+@media (min-width: 1280px) {
+    .navprincipal {
+        flex-direction: row;
+        justify-content: space-between;    
+    } 
+}
+
+@media (max-width: 1279px) {
+    .navprincipal {
+        flex-direction: column;
+        justify-content: space-between;    
+    } 
+}
+
 .redeshover:hover {
     width: 5rem;
     height: 5rem;
 }
 
-/* Contenido ITEM 1  ¿Que hacemos? - Index*/ 
-.gridcontainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 2rem;
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
 }
 
-.griditem1 {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-}
-.griditem2 {
-    justify-content: center;
-    align-items: center;
-    font-weight: 500;
-    font-size: 3rem;
+/* Contenido ITEM 1  ¿Que hacemos? - Index*/ 
+@media (min-width: 1280px) {
+    .gridcontainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+    }
+    .griditem1 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    .griditem2 {
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        font-size: 3rem;
+    }
 }
 
 /* Contenido ITEM2 & ITEM3 - Index*/
@@ -218,8 +253,8 @@ tr,th{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70rem;
-    height: 30rem;
+    width: 80rem;
+    height: 40rem;
     padding: 1rem;
 }
 .derechasomos {

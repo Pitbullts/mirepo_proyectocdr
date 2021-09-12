@@ -164,7 +164,10 @@
 @media (max-width: 768px) {
   .gridmain {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .apigoogle {
+    width: 50%;
+    height: 50%; } }
 
 /* Generales */
 a {
@@ -250,7 +253,7 @@ tr, th {
   height: 50rem; }
 
 .apigoogle {
-  width: auto;
+  width: 100%;
   height: auto; }
 
 html {

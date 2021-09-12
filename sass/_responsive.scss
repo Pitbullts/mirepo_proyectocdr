@@ -1,14 +1,14 @@
 /* NavBar  ----RESPONSIVE------ */ 
 
 @media (min-width: 1280px) {
-    .navprincipal {
+    .NavPrincipal {
         flex-direction: row;
         justify-content: space-between;    
     } 
 }
 
 @media (max-width: 1279px) {
-    .navprincipal {
+    .NavPrincipal {
         flex-direction: column;
         justify-content: space-between;    
     } 
@@ -48,30 +48,38 @@
 }
 
 /* Responsive Page Somos */
-@media (min-width: 1600px) {
-    .containersomos {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .izqsomos {
 
-    }
+@media (max-width: 1550px) {
+    .contentsomos {
+        display: flex;
+        flex-direction: column;
 
-    .derechasomos {
-               
-    }
+    } 
 }
 
-@media (max-width: 1500px) {
-    .containersomos {
+@media (max-width: 900px) {
+    .imgpersonas,.izqsomosimg {
+        width: 100%;
+        height: auto;
+    } 
+}
+
+@media (max-width: 692px) {
+    .derecharesponsive {
         display: grid;
         grid-template-rows: 1fr 1fr;
     }
-    .ContenidoIzqSomos {
+    .TxtSomosResponsive {
         grid-row: 1 / 2;
-    }
-
-    .ContenidoDerechaSomos {
+        text-align: center;
+    } 
+    .imgpersonas {
         grid-row: 2 / -2;
+        width:  auto;
+        height: auto;
+        justify-content: center;
+        align-items: center;
     }
 }
+
+

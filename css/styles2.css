@@ -169,6 +169,21 @@
     width: 50%;
     height: 50%; } }
 
+/* Responsive Page Somos */
+@media (min-width: 1600px) {
+  .containersomos {
+    display: grid;
+    grid-template-columns: 1fr 1fr; } }
+
+@media (max-width: 1500px) {
+  .containersomos {
+    display: grid;
+    grid-template-rows: 1fr 1fr; }
+  .ContenidoIzqSomos {
+    grid-row: 1 / 2; }
+  .ContenidoDerechaSomos {
+    grid-row: 2 / -2; } }
+
 /* Generales */
 a {
   color: var(--blanco);

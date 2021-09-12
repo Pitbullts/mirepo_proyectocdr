@@ -113,13 +113,13 @@
   background-color: var(--secundario);
   width: 100%; }
 
-.navprincipal {
+.NavPrincipal {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between; }
 
-.navprincipal a {
+.NavPrincipal a {
   color: var(--blanco);
   text-decoration: none;
   font-size: 2rem;

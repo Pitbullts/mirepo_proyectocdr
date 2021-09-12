@@ -1,0 +1,38 @@
+/* ¿Quienes somos */
+
+.containersomos {
+    display: block;
+}
+
+.contentsomos {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin: 5px;
+}
+
+.izqsomos {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.izqsomostext {
+    display: flex;
+    flex-direction: column;
+}
+
+.izqsomosimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80rem;
+    height: 40rem;
+    padding: 1rem;
+}
+.derechasomos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}

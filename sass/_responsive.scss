@@ -1,0 +1,43 @@
+/* NavBar  ----RESPONSIVE------ */ 
+
+@media (min-width: 1280px) {
+    .navprincipal {
+        flex-direction: row;
+        justify-content: space-between;    
+    } 
+}
+
+@media (max-width: 1279px) {
+    .navprincipal {
+        flex-direction: column;
+        justify-content: space-between;    
+    } 
+}
+
+
+/* Contenido ITEM 1  ¿Que hacemos? - Index ----RESPONSIVE------*/ 
+@media (min-width: 1280px) {
+    .gridcontainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+    }
+    .griditem1 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    .griditem2 {
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        font-size: 3rem;
+    }
+}
+
+/* Contenido ITEM2 & ITEM3 - Index  ----RESPONSIVE------ */
+@media (max-width: 768px) {
+    .gridmain {
+        display: flex;
+        flex-direction: column;
+    }
+}

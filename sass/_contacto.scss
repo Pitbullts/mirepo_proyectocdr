@@ -1,0 +1,20 @@
+/* CONTACTO */
+.gridfielset {
+    display: grid;
+    margin: 1rem;
+}
+.gridcontact {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenidocontacto {
+    display: grid;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.borderlegend {
+    border-style: none;
+}

@@ -1,0 +1,38 @@
+
+/*  ---------------Estilizadores de texto reutilizables  */
+.center {
+    text-align: center;
+}
+.txtmain {
+    color: var(--blanco);
+    font-size: 5rem;
+}
+.formnewsl {       /* titulos blancos tam mediano */
+    color: var(--blanco);
+    font-size: 3rem;
+}
+.formtext {
+    font-size: 2rem;
+    color: var(--blanco);
+}
+.fontbnc {  /* Fuente negrita clase global */
+    font-weight: bold;
+}
+
+.justify {
+    justify-content: left;
+}
+
+.border {
+    border: solid #ffffff;
+}
+
+.margin {
+    margin: 1rem;
+}
+
+.centergrid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}

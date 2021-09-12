@@ -175,7 +175,8 @@
 @media (max-width: 900px) {
   .imgpersonas, .izqsomosimg {
     width: 100%;
-    height: auto; } }
+    height: auto;
+    object-fit: contain; } }
 
 @media (max-width: 692px) {
   .derecharesponsive {
@@ -186,7 +187,7 @@
     text-align: center; }
   .imgpersonas {
     grid-row: 2 / -2;
-    width: auto;
+    width: 100%;
     height: auto;
     justify-content: center;
     align-items: center; } }

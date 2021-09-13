@@ -6,18 +6,26 @@
     --gris: #757575;
     --grisclaro: #DFE9F3;
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;600;700&display=swap'); /* font-family: 'Oswald', sans-serif; */ 
+
+// Pages
 @import "index";
 @import "contacto";
 @import "dndpuestos";
 @import "beneficios";
 @import "somos";
+
+// Modulos
 @import "navbar";
 @import "responsive";
+@import "popup";
+
+// Variables
 @import "generales";
 @import "estilizadores.scss";
 @import "imagenes";
+
+$asdd: 2rem, center;
 
 
 html {

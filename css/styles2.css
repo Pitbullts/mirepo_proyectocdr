@@ -69,10 +69,10 @@
   padding: 1rem; }
 
 /* Beneficios.html */
-.content-beneficios {
+.contentbeneficios {
   display: grid; }
 
-.content-beneficios ul {
+.contentbeneficios ul {
   list-style-type: square; }
 
 /* ¿Quienes somos */
@@ -283,7 +283,7 @@ tr, th {
   font-size: 2rem;
   color: var(--blanco); }
 
-.FontBnc {
+.fontbnc {
   /* Fuente negrita clase global */
   font-weight: bold; }
 

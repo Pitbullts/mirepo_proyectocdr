@@ -213,7 +213,8 @@
   border-radius: 5px;
   width: 30%;
   position: relative;
-  transition: all 5s ease-in-out; }
+  transition: all 5s ease-in-out;
+  z-index: 1; }
   .popup h2 {
     margin-top: 0; }
   .popup .close {
@@ -230,6 +231,9 @@
   .popup .content {
     max-height: 30%;
     overflow: auto; }
+
+.alert {
+  z-index: -1; }
 
 /* Generales */
 a {

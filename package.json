@@ -1,7 +1,7 @@
 {
   "name": "mirepo_proyectocdr",
   "version": "1.0.0",
-  "description": "",
+  "description": "repo",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,5 +21,6 @@
   "devDependencies": {
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.12"
-  }
+  },
+  "dependencies": {}
 }

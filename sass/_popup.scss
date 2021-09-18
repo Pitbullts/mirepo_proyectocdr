@@ -25,6 +25,7 @@ $hoverpop: #d80606;
     width: 30%;
     position: relative;
     transition: all 5s ease-in-out;
+    z-index: 1;
   
     h2 {
       margin-top: 0;
@@ -49,4 +50,8 @@ $hoverpop: #d80606;
       max-height: 30%;
       overflow: auto;
     }
+  }
+
+  .alert {
+    z-index: -1;
   }

@@ -76,22 +76,22 @@
   list-style-type: square; }
 
 /* ¿Quienes somos */
-.contentsomos {
+.content-somos {
   display: flex;
   flex-direction: row;
   gap: 5px;
   margin: 5px; }
 
-.izqsomos {
+.IzqSomos {
   display: flex;
   flex-direction: column;
   padding: 1rem; }
 
-.izqsomostext {
+.IzqSomostext {
   display: flex;
   flex-direction: column; }
 
-.izqsomosimg {
+.IzqSomosimg {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -99,7 +99,7 @@
   height: 40rem;
   padding: 1rem; }
 
-.derechasomos {
+.DerechaSomos {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -168,24 +168,24 @@
 
 /* Responsive Page Somos */
 @media (max-width: 1550px) {
-  .contentsomos {
+  .content-somos {
     display: flex;
     flex-direction: column; } }
 
 @media (max-width: 900px) {
-  .imgpersonas, .izqsomosimg {
+  .img-personas, .IzqSomosimg {
     width: 100%;
     height: auto;
     object-fit: contain; } }
 
 @media (max-width: 692px) {
-  .derecharesponsive {
+  .DerechaResponsive {
     display: grid;
     grid-template-rows: 1fr 1fr; }
   .TxtSomosResponsive {
     grid-row: 1 / 2;
     text-align: center; }
-  .imgpersonas {
+  .img-personas {
     grid-row: 2 / -2;
     width: 100%;
     height: auto;
@@ -314,7 +314,7 @@ tr, th {
   width: 100%;
   height: 60rem; }
 
-.imgpersonas {
+.img-personas {
   width: 60%;
   height: 100%; }
 

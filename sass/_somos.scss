@@ -2,25 +2,25 @@
 
 
 
-.contentsomos {
+.content-somos {
     display: flex;
     flex-direction: row;
     gap: 5px;
     margin: 5px;
 }
 
-.izqsomos {
+.IzqSomos {
     display: flex;
     flex-direction: column;
     padding: 1rem;
 }
 
-.izqsomostext {
+.IzqSomostext {
     display: flex;
     flex-direction: column;
 }
 
-.izqsomosimg {
+.IzqSomosimg {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +28,7 @@
     height: 40rem;
     padding: 1rem;
 }
-.derechasomos {
+.DerechaSomos {
     display: flex;
     align-items: center;
     justify-content: center;

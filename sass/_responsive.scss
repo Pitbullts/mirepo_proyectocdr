@@ -49,38 +49,29 @@
 
 /* Responsive Page Somos */
 
-@media (max-width: 1550px) {
+@media (max-width: 1280px) {
     .contentsomos {
         display: flex;
         flex-direction: column;
-
     } 
 }
 
 @media (max-width: 900px) {
-    .imgpersonas,.izqsomosimg {
+    .ImgPersonas,.izqsomosimg {
         width: 100%;
         height: auto;
         object-fit: contain;
     } 
 }
-
-@media (max-width: 692px) {
-    .derecharesponsive {
-        display: grid;
-        grid-template-rows: 1fr 1fr;
+    .derecha-responsive {
+        display: flex;
+        flex-direction: column;
     }
-    .TxtSomosResponsive {
-        grid-row: 1 / 2;
-        text-align: center;
-    } 
-    .imgpersonas {
-        grid-row: 2 / -2;
-        width:  100%;
-        height: auto;
-        justify-content: center;
-        align-items: center;
+    
+    @media (min-width: 901px) {
+        .ImgPersonas {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        } 
     }
-}
-
-

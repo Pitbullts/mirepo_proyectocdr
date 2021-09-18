@@ -10,7 +10,7 @@
 
 /* font-family: 'Oswald', sans-serif; */
 /* Contenido ITEM2 & ITEM3 - Index*/
-.gridmain {
+.grid-main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 3rem;
@@ -99,11 +99,18 @@
   height: 40rem;
   padding: 1rem; }
 
-.derechasomos {
+.derecha-somos {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 1rem; }
+
+.ImgPersonas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 61.5%;
+  height: 100%; }
 
 /*  --------------- Nav Bar  --------------- */
 .nav-bg {
@@ -167,30 +174,26 @@
     height: 50%; } }
 
 /* Responsive Page Somos */
-@media (max-width: 1550px) {
+@media (max-width: 1280px) {
   .contentsomos {
     display: flex;
     flex-direction: column; } }
 
 @media (max-width: 900px) {
-  .imgpersonas, .izqsomosimg {
+  .ImgPersonas, .izqsomosimg {
     width: 100%;
     height: auto;
     object-fit: contain; } }
 
-@media (max-width: 692px) {
-  .derecharesponsive {
-    display: grid;
-    grid-template-rows: 1fr 1fr; }
-  .TxtSomosResponsive {
-    grid-row: 1 / 2;
-    text-align: center; }
-  .imgpersonas {
-    grid-row: 2 / -2;
+.derecha-responsive {
+  display: flex;
+  flex-direction: column; }
+
+@media (min-width: 901px) {
+  .ImgPersonas {
     width: 100%;
     height: auto;
-    justify-content: center;
-    align-items: center; } }
+    object-fit: contain; } }
 
 .popup-overlay {
   position: fixed;
@@ -283,7 +286,7 @@ tr, th {
   font-size: 2rem;
   color: var(--blanco); }
 
-.fontbnc {
+.FontBnc {
   /* Fuente negrita clase global */
   font-weight: bold; }
 
@@ -313,10 +316,6 @@ tr, th {
 .coffe-img {
   width: 100%;
   height: 60rem; }
-
-.imgpersonas {
-  width: 60%;
-  height: 100%; }
 
 .api-google {
   width: 100%;

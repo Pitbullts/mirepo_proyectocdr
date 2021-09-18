@@ -15,11 +15,11 @@
     justify-content: center;
 }
 
-.fieldindex {
+.field-index {
     border-style: none;
 }
 /* Item3 NewSletter */ 
-.item3title {
+.item3-title {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,6 +35,6 @@
     gap: 1rem;
     grid-auto-flow: row;
 }
-.labelcorreo,.labelnombre {
+.label-correo,.label-nombre {
     font-size: 3rem;
 }

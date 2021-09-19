@@ -2,7 +2,7 @@
 
 ## # **Requisitos**
 Tener instalado Node y ejecutar los siguientes comandos:
-*npm init*
+*npm init* y 
 *npm watch-css*
 
 ### ## **Introduccion sobre este Repositorio**

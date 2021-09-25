@@ -1,7 +1,7 @@
 {
-  "name": "mirepo_proyectocdr",
+  "name": "The Coffe Store",
   "version": "1.0.0",
-  "description": "repo",
+  "description": "sitio web de un cafe llamado the coffe store",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -22,5 +22,8 @@
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.12"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "keywords": [
+    "repocdr"
+  ]
 }

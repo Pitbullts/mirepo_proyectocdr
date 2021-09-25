@@ -113,6 +113,33 @@
   height: auto;
   padding: 1rem; }
 
+/* Extends */
+.error-400-style1 {
+  font-weight: bolder; }
+
+.error-400-style2, .social-medias-text {
+  font-weight: bolder; }
+
+/* Maps */
+/* Each + Maps */
+.social-medias-text--twitter {
+  color: #00acee; }
+
+.social-medias-text--facebook {
+  color: #3b5998; }
+
+.social-medias-text--instagram {
+  color: #30618A; }
+
+.social-medias-text--twitter:hover {
+  font-size: 4rem; }
+
+.social-medias-text--facebook:hover {
+  font-size: 4rem; }
+
+.social-medias-text--instagram:hover {
+  font-size: 4rem; }
+
 /*  --------------- Nav Bar  --------------- */
 .nav-bg {
   background-color: var(--secundario);
@@ -277,14 +304,14 @@ tr, th {
   border-spacing: 1rem; }
 
 /*  ---------------Estilizadores de texto reutilizables  */
-.center, .error-400-style1, .error-400-style2 {
+.center, .error-400-style1, .error-400-style2, .social-medias-text {
   text-align: center; }
 
 .TxtMain, .error-400-style1 {
   color: var(--blanco);
   font-size: 5rem; }
 
-.form-newsl, .error-400-style2 {
+.form-newsl, .error-400-style2, .social-medias-text {
   /* titulos blancos tam mediano */
   color: var(--blanco);
   font-size: 3rem; }
@@ -293,7 +320,7 @@ tr, th {
   font-size: 2rem;
   color: var(--blanco); }
 
-.FontBnc, .error-400-style2 {
+.FontBnc, .error-400-style2, .social-medias-text {
   /* Fuente negrita clase global */
   font-weight: bold; }
 

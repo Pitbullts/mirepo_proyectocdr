@@ -75,3 +75,13 @@
             object-fit: contain;
         } 
     }
+
+    /* PopUp */
+    @media (max-width: 395px) {
+            .popup {
+                width: 100%;
+                height: auto;
+            }
+    }   
+
+    

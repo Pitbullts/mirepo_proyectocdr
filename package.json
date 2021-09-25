@@ -1,8 +1,13 @@
 {
-  "name": "The Coffe Store",
+  "name": "the_coffe_store",
   "version": "1.0.0",
-  "description": "sitio web de un cafe llamado the coffe store",
+  "description": "The Coffe Store, una tienda de cafe",
   "main": "index.js",
+  "dependencies": {
+    "nodemon": "^2.0.12",
+    "node-sass": "^6.0.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss sass/styles2.scss css/styles2.css",
@@ -12,18 +17,10 @@
     "type": "git",
     "url": "git+https://github.com/Pitbullts/mirepo_proyectocdr.git"
   },
-  "author": "yo",
+  "author": "Lucas",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Pitbullts/mirepo_proyectocdr/issues"
   },
-  "homepage": "https://github.com/Pitbullts/mirepo_proyectocdr#readme",
-  "devDependencies": {
-    "node-sass": "^6.0.1",
-    "nodemon": "^2.0.12"
-  },
-  "dependencies": {},
-  "keywords": [
-    "repocdr"
-  ]
+  "homepage": "https://github.com/Pitbullts/mirepo_proyectocdr#readme"
 }

@@ -196,6 +196,12 @@
     height: aut;
     object-fit: contain; } }
 
+/* PopUp */
+@media (max-width: 395px) {
+  .popup {
+    width: 100%;
+    height: auto; } }
+
 .popup-overlay {
   position: fixed;
   top: 0;
@@ -271,14 +277,14 @@ tr, th {
   border-spacing: 1rem; }
 
 /*  ---------------Estilizadores de texto reutilizables  */
-.center {
+.center, .error-400-style1, .error-400-style2 {
   text-align: center; }
 
-.TxtMain {
+.TxtMain, .error-400-style1 {
   color: var(--blanco);
   font-size: 5rem; }
 
-.form-newsl {
+.form-newsl, .error-400-style2 {
   /* titulos blancos tam mediano */
   color: var(--blanco);
   font-size: 3rem; }
@@ -287,7 +293,7 @@ tr, th {
   font-size: 2rem;
   color: var(--blanco); }
 
-.FontBnc {
+.FontBnc, .error-400-style2 {
   /* Fuente negrita clase global */
   font-weight: bold; }
 
